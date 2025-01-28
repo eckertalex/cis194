@@ -50,4 +50,3 @@ hanoi4 n src goal tmp1 tmp2 =
    in hanoi4 k src tmp2 goal tmp1
         ++ hanoi (n - k) src goal tmp1
         ++ hanoi4 k tmp2 goal src tmp1
-
